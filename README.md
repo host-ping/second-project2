@@ -13,7 +13,7 @@ git init
 touch README.md
 nano README.md
 ```
-Можно просто nano README.md
+Можно просто **nano README.md**
 
 3. Чтобы наш git начал отслеживать изменения в этом файле, мы можем указать конкретно этот файл 
 ```bash
@@ -27,4 +27,19 @@ git add .
 ```bash
 git commit -m "Создали файл README.md"
 ```
+5. Теперь нам нужно связать наш локальный репозиторий и удаленный на GitHub, который мы заранее сделали
+```bash
+git remote add origin git@github.com:host-ping/second-project2.git
+```
+Можем посмотреть связанные репозитории:
+```bash
+git remote -v
+origin	git@github.com:host-ping/second-project2.git (fetch)
+origin	git@github.com:host-ping/second-project2.git (push)
+```
+6. Отправим (запушим) наши изменения на удаленный репозиторий:
+```bash
+git push -u origin 
+```
+
 
