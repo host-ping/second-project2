@@ -13,7 +13,7 @@ git init
 touch README.md
 nano README.md
 ```
-Можно просто **nano README.md**
+Можно просто **README.md**
 
 3. Чтобы наш git начал отслеживать изменения в этом файле, мы можем указать конкретно этот файл 
 ```bash
@@ -42,4 +42,12 @@ origin	git@github.com:host-ping/second-project2.git (push)
 git push -u origin 
 ```
 
+7. HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов: **modified+git add = staged**
 
+
+```mermaid
+%% описание схемы
+```
+<и тут пустая строка!> 
