@@ -52,8 +52,3 @@ graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit" --> tracked/comitted;
 
-
-```mermaid
-%% описание схемы
-```
-<и тут пустая строка!> 
