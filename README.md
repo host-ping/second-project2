@@ -46,6 +46,12 @@ git push -u origin
 Коммит -- это всему голова.
 Статусы файлов: **modified+git add = staged**
 
+```mermaid
+%% Статусы файлов:
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit" --> tracked/comitted;
+
 
 ```mermaid
 %% описание схемы
